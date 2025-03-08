@@ -1,0 +1,8 @@
+CREATE TABLE uporabniki (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    ime VARCHAR(30) NOT NULL,
+    priimek VARCHAR(30) NOT NULL,
+    gmail VARCHAR(50) NOT NULL,
+    geslo VARCHAR(50) NOT NULL,
+    username VARCHAR(30) NOT NULL
+);
